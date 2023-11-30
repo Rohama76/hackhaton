@@ -1,0 +1,323 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+   
+.two{
+    height: 20px;
+    width: 30px;
+}
+
+.one{
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(228, 221, 219);
+    display: flex;
+    color: black;
+     justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+    margin-bottom: -210px;
+}
+
+.five{
+    margin-top: 2%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.four
+{
+    float: right;
+}
+.six{
+    margin-top: -18%;
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(228, 221, 219);
+    display: flex;
+    color: black;
+     justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+}
+.seven{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+ .slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .slide {
+        height: 200px;
+    }
+  }
+  .eleven{
+    height: 20px;
+    width: 30px;
+}
+.twelve{
+    margin-top: 10% ;
+    margin-left: 20%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  .thirteen{
+    margin-top: 50%;
+    
+  }
+  .first{
+    height: 300x;
+  }
+  .tw{
+    color:white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.fou{
+    color:white;
+
+    margin-top: 10px;
+        margin-left: 20px;
+    }
+    .fiv{
+        color:white;
+
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .six{
+
+        color:white;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+   .sixteen{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    background-color: black;
+   
+   }
+   .sixteen .img img{
+    width: 100%;
+   }
+   
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 5px 10px #888888; ;
+
+  }
+  .me{
+    color: purple;
+    margin-top: 5%;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  .it{
+    background-color: orangered;
+    color: black;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-top: -223px;
+  }
+  .doc{
+    margin-top: 50px;
+  }
+  
+.input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.footer{
+background-color: black;
+display: flex;
+justify-content: space-between;
+}
+.footer ul li{
+    list-style-type: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+.three{
+    margin: 40px;
+    padding: 30px;
+}
+.when{
+    color: black;
+}
+  
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    
+  }
+  @media screen and (max-width: 767px) {
+  .wow {
+    flex-direction: column;
+    justify-content: space-between;
+
+}}
+  
+  @media screen and (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+  }
+   @media screen and (max-width: 768px) {
+    .sixteen {
+        display: grid;
+    grid-template-columns:(1fr);
+    gap: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+  }
+  .la{
+    background-color: #04AA6D;
+  }
