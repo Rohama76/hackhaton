@@ -1,13 +1,18 @@
 function validateForm() {
     var name = document.getElementById('name').value;
+    console.log(name)
     var email = document.getElementById('email').value;
+    console.log(email)
 
-    // Basic validation
-    if (name === '' || email === '') {
-      alert('Name and email are required');
-    } else {
-      // Display a pop-up or do further processing
-      alert('Form submitted successfully!');
-      // You can replace the alert with a more sophisticated popup/modal
+    var message = document.getElementById('message').value;
+    console.log(message)
+
+
+    if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+        alert('Please fill out all fields.');
+        return false;
     }
-  }
+
+
+    return true;
+}
