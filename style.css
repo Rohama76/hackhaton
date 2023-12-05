@@ -8,10 +8,14 @@
     height: 20px;
     width: 30px;
 }
-
+.thre{
+    margin-bottom: 5px;
+    margin-top: 12px;
+    font-weight: 600px;
+}
 .one{
     width: 100%;
-    height: 18vh;
+    height: 15vh;
     background-color: rgb(228, 221, 219);
     display: flex;
     color: black;
@@ -51,49 +55,6 @@
     display: flex;
     justify-content: space-evenly;  
 }
- .slider-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slide {
-    flex: 0 0 100%;
-    height: 300px;
-    background-size: cover;
-  }
-  
-  button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .prev {
-    left: 10px;
-  }
-  
-  .next {
-    right: 10px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .slide {
-        height: 200px;
-    }
-  }
   .eleven{
     height: 20px;
     width: 30px;
@@ -117,6 +78,9 @@
     padding: 20px;
     margin: 10px;
     text-align: center;
+  }
+ .card :hover{
+    margin: 10px;
   }
   .thirteen{
     margin-top: 50%;
@@ -185,6 +149,12 @@
     max-width: 400px;
     margin: 0 auto;
   }
+.la{
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
 
   input {
     width: 100%;
